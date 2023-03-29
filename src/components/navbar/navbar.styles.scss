@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.navigationbar {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  background: linear-gradient(120deg, white 25%, #212529 25%);
+  .navbrand {
+    color: #00afef;
+    font-size: 28px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+  .navbrand:hover {
+    color: #212529;
+  }
+  .navlink {
+    color: #00afef;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .navlink:hover {
+    color: white;
+  }
+}
